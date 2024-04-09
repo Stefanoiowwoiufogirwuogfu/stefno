@@ -1,0 +1,98 @@
+{
+  "doctype": "html",
+  "html": {
+    "lang": "en",
+    "head": {
+      "meta": [
+        { "charset": "UTF-8" },
+        { "name": "viewport", "content": "width=device-width, initial-scale=1.0" }
+      ],
+      "title": "Yala National Park",
+      "link": { "rel": "stylesheet", "href": "css/yalanationalpark.css" },
+      "script": { "src": "yala.js", "defer": true }
+    },
+    "body": {
+      "style": "background-image: url(images/078YAL-IM1007-yala-travel-sri-lanka-768.jpg);",
+      "header": {
+        "div": {
+          "class": "container",
+          "img": { "id": "logo", "src": "images/elephant (2).png", "alt": "logo", "width": "100px", "height": "100px" },
+          "div": {
+            "class": "text-container",
+            "h1": "Sri Lanka's Wild Kingdom",
+            "h3": "An Introductory Expedition into Sri Lankan Wildlife"
+          }
+        },
+        "div": {
+          "class": "nav-bar",
+          "ul": {
+            "li": [
+              { "a": { "href": "index.html", "text": "Home" } },
+              { "a": { "href": "animals in sl.html", "text": "Animals in Sri lanka" } },
+              { "a": { "href": "introduction.html", "text": "Wildlife introduction" } },
+              { "a": { "href": "conservation.html", "text": "Conservation" } },
+              { "a": { "href": "visitors guide.html", "text": "Visitors Guide" } },
+              { "a": { "href": "About us.html", "text": "About Us" } }
+            ]
+          }
+        }
+      },
+      "main": {
+        "section": [
+          {
+            "id": "about",
+            "p": { "class": "yala", "text": "Yala National Park" },
+            "section": {
+              "class": "background",
+              "div": {
+                "class": "cnt-1",
+                "p": "Yala National Park, also known as Ruhuna National Park, is an absolute gem nestled in the southeast corner of the enchanting island of Sri Lanka. If you're a wildlife enthusiast or simply seeking a unique adventure, this park is a must-see, and for good reason. Spanning an impressive 1,260 square kilometers, it's divided into five blocks, with Block I being the most popular and rewarding for a leopard safari. Picture this: the thrill of spotting elusive leopards in their natural habitat, a sight that sets Yala apart. Renowned for having the highest density of leopards per square kilometer in the world, the park offers a unique opportunity to witness these majestic creatures in action. Keep your eyes peeled as you might catch them basking in the sun atop rocky outcrops, gracefully maneuvering through trees, or crossing tracks and lounging by waterholes. But Yala isn't just about leopards. The park is a bustling ecosystem teeming with diverse wildlife. From the playful antics of monkeys to the gentle giants – Asian elephants, and the lumbering yet endearing sloth bears, Yala showcases the richness of Sri Lanka's biodiversity. As you venture through the park, you'll encounter deer gracefully prancing, buffalo grazing, and a vibrant array of bird species filling the air with their melodious tunes. For the avid nature lover seeking an authentic safari experience, Yala stands as the best opportunity in Sri Lanka. The interactive journey through the park promises not just glimpses of wildlife but a profound connection with the untamed beauty of nature. With knowledgeable guides leading the way, your Yala adventure becomes a captivating story of wildlife encounters, scenic landscapes, and the thrill of the unknown. Intrigued by the call of the wild? Yala National Park invites you to embark on an unforgettable journey, where every turn unveils a new chapter in the captivating tale of Sri Lanka's natural wonders."
+              }
+            }
+          },
+          {
+            "id": "historybg",
+            "div": {
+              "class": "history",
+              "h4": "History",
+              "p": "Yala is one of Sri Lanka’s oldest national parks and was designated a wildlife sanctuary as far back as 1900 though it wasn’t until 1938 that it was established as a national park. Right in the heart of Yala sits the Buddhist temple Sithulpawa, and this former monastery is thought to date back 2,000 years. At one time, the monastery is thought to have housed 12,000 inhabitants, and today, it remains an important temple visited by pilgrims across Sri Lanka. Other significant cultural sites in the vicinity include Kataragama and Magul Maha Vihara."
+            }
+          },
+          {
+            "id": "locationbg",
+            "div": {
+              "class": "location",
+              "h4": "Location",
+              "img": { "id": "yalalocation", "src": "images/Screenshot 2024-01-19 094422.png", "alt": "yala nationla park", "width": "500px" },
+              "p": "Situated in the captivating southeast of Sri Lanka, just 20 kilometers southwest of Tissamaharama, lies the remarkable Yala National Park. With a portion of its expanse touching the shores of the Indian Ocean, the park offers a unique blend of terrestrial and coastal wonders. For those seeking an adventure, Chena Huts, nestled in the park's wildlife-rich buffer zone, is your gateway to this natural paradise. Picture this: within a mere 10-minute drive from Chena Huts, you'll find yourself at the entrance of the reserve, ready to embark on a safari filled with thrilling wildlife encounters. For those journeying from Colombo, the vibrant capital, Yala is a scenic 300-kilometer drive away, taking approximately five hours. The road trip itself becomes an immersive experience, showcasing the diverse landscapes of Sri Lanka. From the bustling cityscape to the serene coastal stretches, every kilometer unfolds a new chapter in your journey towards the heart of Yala's untamed beauty. Get ready for an unforgettable adventure that seamlessly blends the convenience of access with the thrill of exploration."
+            }
+          },
+          {
+            "class": "wildlifebg",
+            "div": {
+              "class": "wildlife",
+              "h4": "Wildlife",
+              "div": {
+                "img": [
+                  { "id": "push", "src": "images/solated-wild-sloth-bear-Melursus-ursinus-crossing-the-road-of-Wilpattu-national-park-Sri-Lanka.-Sloth-bear-staring-directly-at-camera-wildlife-photo..jpg", "alt": "photo", "width": "300px" },
+                  { "src": "images/OIP.jpeg", "alt": "photo", "width": "300px" },
+                  { "src": "images/deer-5812306_1280.jpg", "alt": "photo", "width": "300px" }
+                ]
+              },
+              "p": "Nestled in the heart of the mesmerizing island of Sri Lanka, Yala National Park beckons with its unparalleled biodiversity and thrilling wildlife encounters. Renowned as the best reserve in the country for a diverse range of wildlife sightings, Yala stands as a testament to the natural wonders that grace this corner of the world. Imagine embarking on a safari through the lush landscapes of Yala, where the star attractions are the elusive leopards, majestic elephants, and the endearing sloth bears. Block I, the focal point of most game drives, boasts the world's highest density of leopards per square kilometer, providing an exceptional opportunity to witness these magnificent creatures in their natural habitat. Younger males, accustomed to the presence of jeeps, may leisurely saunter along tracks or bask on rocky outcrops, offering an up-close and personal view of their daily lives. The park's allure extends beyond big cats; elephants, sambur deer, jackals, and langur monkeys play their roles in this captivating natural drama. Keep an eye out for the elusive sloth bears, particularly during May and June when they indulge in feasting on the fruits of the palu tree. Each moment in Yala is a chance to witness the intricate dance of predator and prey, showcasing the delicate balance of nature. Yala is a haven for bird enthusiasts, with approximately 215 bird species calling the park home, including seven endemics. The Sri Lanka grey hornbill, Sri Lanka wood pigeon, brown-capped babbler, and the vibrant blue-tailed bee-eater are just a few feathered highlights. The park also hosts rare residents like the Black-necked Stork and the greater adjutant, captivating visitors with their unique presence. As the most popular national park in Sri Lanka, Yala attracts a diverse array of visitors eager to witness the wonders of the wild. The park is not only a residence for resident species but also a temporary home for migratory birds, adding to the dynamic tapestry of life within its borders. Embark on a journey into Yala National Park, where every turn reveals a new chapter in the captivating story of nature's grandeur. With its abundance of wildlife and breathtaking landscapes, Yala promises an immersive and unforgettable adventure for all who dare to explore its wild wonders."
+            }
+          },
+          {
+            "class": "conservation",
+            "div": {
+              "class": "conservation-efforts",
+              "h4": "Conservation efforts",
+              "img": { "src": "images/plantingtogether.jpg", "alt": "conservation efforts", "width": "400px" },
+              "p": "Yala National Park has been the focus of various conservation initiatives aimed at safeguarding its rich biodiversity and ensuring the sustained well-being of its ecosystems. These efforts have been crucial in addressing challenges such as poaching, habitat loss, and human-wildlife conflict. Conservation initiatives in Yala often involve partnerships between governmental authorities, non-governmental organizations (NGOs), and local communities. One notable effort is the implementation of anti-poaching measures to combat illegal hunting and the trafficking of wildlife. This includes deploying ranger patrols, employing technology such as camera traps, and establishing intelligence networks to monitor and deter poaching activities. Habitat loss is another significant concern, particularly with increasing human activities in and around the park. Conservationists work on habitat restoration projects, reforestation initiatives, and the establishment of buffer zones to mitigate the impact of human encroachment. Additionally, community-based conservation programs aim to involve local residents in sustainable practices that minimize habitat disruption. Human-wildlife conflict arises due to the proximity of human settlements to the park boundaries. Elephants, in particular, may venture into villages, causing damage to crops and posing risks to both humans and wildlife. Conservation efforts include the development of community-based strategies, such as constructing barriers and trenches to deter elephants, providing alternative livelihoods to reduce dependency on agriculture, and implementing early-warning systems to alert communities about wildlife movement. Education and awareness programs play a crucial role in fostering a sense of responsibility and appreciation for wildlife and ecosystems. Local communities are often engaged in conservation education, teaching them the importance of coexisting with wildlife and understanding the ecological role each species plays. Despite these efforts, challenges persist. Poaching remains a threat, driven by demand for wildlife products. Habitat loss continues due to agricultural expansion and infrastructure development. Human-wildlife conflict is an ongoing concern that requires adaptive strategies to address evolving scenarios. Sustainable tourism practices are also essential to balance the economic benefits of tourism with the need to protect the environment. Striking a harmonious balance between conservation and development remains a complex challenge that requires ongoing collaboration, research, and adaptive management strategies. In conclusion, Yala National Park's conservation initiatives reflect a comprehensive and dynamic approach to preserving its unique ecosystems. While progress has been made, ongoing commitment and adaptive strategies are essential to address evolving challenges and ensure the long-term survival of this biodiversity hotspot."
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "doctype": "html",
+  "html": {
+    "lang": "en",
+    "head": {
+      "meta": [
+        { "charset": "UTF-8" },
+        { "name": "viewport", "content": "width=device-width, initial-scale=1.0" }
+      ],
+      "title": "Wilpaththuwa National Park",
+      "link": { "rel": "stylesheet", "href": "css/wilpaththuwa.css" },
+      "script": { "src": "wilpathuwa.js", "defer": true }
+    },
+    "body": {
+      "style": "background-image: url(images/wilpattu-mobile.jpg);",
+      "header": {
+        "div": {
+          "class": "container",
+          "img": { "id": "logo", "src": "images/elephant (2).png", "alt": "logo", "width": "100px", "height": "100px" },
+          "div": {
+            "class": "text-container",
+            "h1": "Sri Lanka's Wild Kingdom",
+            "h3": "An Introductory Expedition into Sri Lankan Wildlife"
+          }
+        },
+        "div": {
+          "class": "nav-bar",
+          "ul": {
+            "li": [
+              { "a": { "href": "index.html", "text": "Home" } },
+              { "a": { "href": "animals in sl.html", "text": "Animals in Sri lanka" } },
+              { "a": { "href": "introduction.html", "text": "Wildlife introduction" } },
+              { "a": { "href": "conservation.html", "text": "Conservation" } },
+              { "a": { "href": "sri lanka leapard.html", "text": "Srilankan Leapord" } },
+              { "a": { "href": "About us.html", "text": "National Park" } }
+            ]
+          }
+        }
+      },
+      "main": {
+        "section": [
+          {
+            "id": "about",
+            "p": { "class": "yala", "text": "Wilpaththuwa National Park" },
+            "section": {
+              "class": "background",
+              "div": {
+                "class": "cnt-1",
+                "p": "Embark on a journey into the expansive seclusion of Wilpattu National Park, an awe-inspiring realm that unfolds along the copper-sand beaches of the northwest coast. As Sri Lanka's largest and oldest game reserve, it sprawls over a vast landscape, embracing the ancient ruins of the Cultural Triangle and the Northern Province. This sanctuary is a haven for wildlife enthusiasts, offering encounters with endemic species, captivating birdlife, majestic Asian Elephants, and the elusive Sri Lankan Leopards and Sloth Bears. Each step in Wilpattu is a venture into the heart of nature's grandeur, where the echoes of wildlife harmonize with the whispers of ancient ruins, creating a truly immersive and unforgettable experience."
+              }
+            }
+          },
+          {
+            "id": "historybg",
+            "div": {
+              "class": "history",
+              "h4": "History",
+              "p": "Wilpattu National Park, a sanctuary echoing with the whispers of history, first earned its wildlife sanctuary status in 1905. However, it was not until February 1938 that this vast 13,500-hectare expanse was officially recognized as a national park, solidifying its place as a haven for Sri Lanka's diverse flora and fauna. But the narrative of Wilpattu extends even further into antiquity. The park's copper shoreline, notably at Kudiramalai, is steeped in legend, believed to be the landing site of the Indian Prince Vijaya in the 5th century BC. A rocky promontory where history unfolded, as Prince Vijaya wedded Princess Kuveni, marking the establishment of the Sinhalese race. The region, aptly named Thambapanni or the 'colour of copper,' pays homage to the reddish hue of the sand that clung to Prince Vijaya and his 700 followers upon their arrival. Wilpattu isn't merely a natural wonder; it's a living museum. Within its boundaries lie 68 archaeological sites, each telling tales of ancient civilizations. The ruins of Kuveni's palace stand as silent witnesses to a bygone era, inviting visitors to connect with the historical roots that intertwine with the park's vibrant ecosystems. Thus, Wilpattu weaves a captivating tapestry where the threads of nature and history entwine, offering an immersive journey into the heart of Sri Lanka's cultural and ecological heritage."
+            }
+          },
+          {
+            "id": "locationbg",
+            "div": {
+              "class": "location",
+              "h4": "Location",
+              "img": { "id": "yalalocation", "src": "images/Screenshot 2024-01-19 110832.png", "alt": "location", "width": "500px" },
+              "p": "Situated in the picturesque northwest of Sri Lanka, Wilpattu National Park is approximately 35 km west of Anuradhapura and 32 km north of Puttalam. Your journey into this wildlife haven from Uga Ulagalla takes around 90 minutes, while it's a scenic 4-hour drive from Uga Residence in Colombo. As you approach the park's main entrance at Hunuvilagama, the track leads you through captivating lowland forests for about 10 kilometers before unveiling the expansive and open wildlife areas, setting the stage for an immersive safari experience in one of Sri Lanka's most diverse and enchanting national parks."
+            }
+          },
+          {
+            "class": "wildlifebg",
+            "div": {
+              "class": "wildlife",
+              "h4": "Wildlife",
+              "p": "Embark on a wildlife odyssey in Wilpattu National Park, where Sri Lanka's most captivating creatures take center stage. The elusive Sri Lankan leopard prowls through the dense foliage, creating an air of anticipation. Majestic Asian Elephants gracefully traverse their habitat, and the endearing Sri Lankan Sloth Bear adds to the enchantment. Supporting this cast are spotted and sambar deer, crocodiles, mongooses, and water buffalo, creating a diverse ecosystem that thrives in this natural sanctuary. Despite having a less dense leopard population than Yala National Park, Wilpattu is renowned for offering some of the country's best leopard sightings. The park's aquatic features enhance its allure, making it a prime location for bird watching. Encounter endemics like the Ceylon grey hornbill, Ceylon Parakeet, and the Red-backed woodpecker, while the brownish Sri Lankan Jungle fowl, the national bird, adds a touch of vibrant local charm to this mesmerizing wildlife spectacle."
+            }
+          },
+          {
+            "class": "conservation",
+            "section": {
+              "class": "conservation-efforts",
+              "h4": "Conservation efforts",
+              "img": { "src": "images/plantingtogether.jpg", "alt": "conservation effort", "width": "300px" },
+              "p": "Wilpattu National Park in Sri Lanka has been the focus of comprehensive conservation initiatives aimed at safeguarding its diverse wildlife and ecosystems. As a protected area, the park benefits from legal status, with stringent regulations governing human activities within its boundaries. Community engagement plays a pivotal role, involving local residents in awareness programs and sustainable livelihood initiatives to foster a sense of responsibility for the park's well-being. Anti-poaching measures, including patrols and technology like camera traps, are implemented to combat illegal activities. Habitat restoration projects and ongoing research contribute to the understanding and preservation of the park's natural environments. Despite these efforts, Wilpattu National Park faces challenges such as persistent poaching, habitat loss due to human activities, and conflicts between wildlife and local communities. Adequate funding and resources remain critical to overcoming these challenges and ensuring the long-term conservation of this ecologically important area."
+            }
+          }
+        ]
+      }
+    }
+  }
+}

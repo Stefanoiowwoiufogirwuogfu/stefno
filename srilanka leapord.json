@@ -1,0 +1,76 @@
+{
+  "doctype": "html",
+  "html": {
+    "lang": "en",
+    "head": {
+      "meta": [
+        { "charset": "UTF-8" },
+        { "name": "viewport", "content": "width=device-width, initial-scale=1.0" }
+      ],
+      "title": "Sri Lankan Leapard",
+      "link": { "rel": "stylesheet", "href": "css/leapard.css" },
+      "script": { "src": "javascript/srilankan_leapord.js", "defer": true }
+    },
+    "body": {
+      "style": "background-image: url(images/pexels-pixabay-46519.jpg);",
+      "header": {
+        "div": {
+          "class": "container",
+          "img": { "id": "logo", "src": "images/elephant (2).png", "alt": "logo", "width": "100px", "height": "100px" },
+          "div": {
+            "class": "text-container",
+            "h1": "Sri Lanka's Wild Kingdom",
+            "h3": "An Introductory Expedition into Sri Lankan Wildlife"
+          }
+        },
+        "div": {
+          "class": "nav-bar",
+          "ul": {
+            "li": [
+              { "a": { "href": "index.html", "text": "Home" } },
+              { "a": { "href": "animals in sl.html", "text": "Animals in Sri lanka" } },
+              { "a": { "href": "introduction.html", "text": "Wildlife introduction" } },
+              { "a": { "href": "conservation.html", "text": "Conservation" } },
+              { "a": { "href": "visitors guide.html", "text": "Visitors Guide" } },
+              { "a": { "href": "About us.html", "text": "About Us" } }
+            ]
+          }
+        }
+      },
+      "main": {
+        "div": {
+          "class": "topic",
+          "h4": "Where to See Leopards in Sri Lanka"
+        },
+        "section": [
+          {
+            "class": "udawalawe",
+            "h3": "Udawalawe National Park",
+            "p": "Udawalawe is the place to go for elephants..."
+          },
+          {
+            "class": "horton",
+            "h3": "Horton National Park",
+            "p": "The misty highlands of Sri Lanka is hardly a place one would imagine encountering a leopard..."
+          },
+          {
+            "class": "wilpaththu",
+            "h3": "Wilpaththu National Park",
+            "p": "The land of lakes, Wilpattu is located on the North-Western end of the island..."
+          },
+          {
+            "class": "threaths",
+            "h3": "Threaths faced by the Sri Lankan Leapard",
+            "img": { "src": "images/Hunting-Skills-5-768x522.webp", "width": "500px" },
+            "p": "The Sri Lankan leopard (Panthera pardus kotiya) faces a complex array of threats jeopardizing its survival..."
+          },
+          {
+            "class": "threats-to-overcome",
+            "h3": "Leopard Conservation: Interactive Insights to Mitigate Threats",
+            "p": "This groundbreaking initiative, tailored for the Sri Lankan landscape, integrates cutting-edge technology and ecological knowledge to offer an interactive platform..."
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,500 @@
+#contentEditor {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+
+#button-to-edit{
+  
+  padding:15px 15px;
+  border:none;
+  border-radius: 10px;
+  background-color: #90ff90;
+  color:#013220;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 250ms;
+  box-shadow: 0 5px 0 #2e8b57;
+  font-family: "montserrat";
+  text-transform: uppercase;
+  font-weight: bold;
+
+  display: block; /* Ensures image is treated as a block element */
+  margin-left: auto; /* Centers the image horizontally */
+  margin-right: auto; 
+  
+}
+
+
+#button-to-edit:active {
+  box-shadow:0 0 0 #2e8b57 ;
+  transform: translateY(6px);
+}
+
+.container1{
+    display:flex;
+    align-items:center;
+    margin-top: 7px;
+}
+
+#logo{
+  margin-top: 0;
+  margin-left: 15px;
+  margin-bottom:86px;
+
+}
+
+.text-container{
+  display:flex;
+  flex-direction:column;
+  margin-right: 12px;
+  text-align: center;
+  margin-left:0px;
+
+}
+
+header{
+
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+h1{
+  font-size: 40px;
+  font-family: 'montserrat',Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-left:20px;
+  margin-top:5px;
+  margin-bottom:0px;
+  padding-bottom: 0px;
+  color: #eee;
+
+
+}
+h3{
+  font-size: 19px;
+  font-family: 'montserrat',Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-bottom:90px;
+  margin-top:0px;
+  color: #eee;
+}
+
+#Welcome-dashboard{
+  font-size: 120px;
+  text-align: center;
+  font-family: "montserrat";
+  font-weight:bolder;
+  color:#98ff98;
+  margin-top: 120px;
+  margin-bottom: 0;
+}
+
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0e0e0e69; 
+  z-index: -1;
+  pointer-events: none;
+}
+.image-container{
+  overflow: hidden; /* Ensures the image stays within its container */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 200px;
+
+}
+.img {
+  width: 200px; /* Set the width of the image */
+  height: 200px; /* Maintain aspect ratio */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  margin: 10px; /* Add margin around the image */  
+  display: block; /* Ensures image is treated as a block element */
+  
+ 
+  animation: fadeInOut 2s linear infinite; 
+}
+
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0; /* Start and end of animation: fully transparent */
+    transform: translateY(0); /* Start and end of animation: no vertical movement */
+  }
+  50% {
+    opacity: 1; /* Middle of animation: fully opaque */
+    transform: translateY(10%); /* Middle of animation: move vertically downward */
+  }
+}
+
+
+
+
+
+
+#Welcome-dashboard1{
+  text-align: center;
+  font-family: "montserrat";
+  font-size: 45px;
+  color:#98ff98;
+  font-weight:bolder;
+  margin-top: 0;
+  margin-bottom:10px;
+
+}
+
+#para-dash{
+  text-align: center;
+  font-family: "montserrat";
+  font-size: 18px;
+  color:#eee;
+  font-weight:lighter;
+  word-spacing: 2px;
+  margin-bottom: 0;
+  text-transform:uppercase;
+  margin-left: 400px ;
+  margin-right:400px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Importing Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+      * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "montserrat";
+          
+        }
+
+        .container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 100px 50px;
+            padding: 100px 50px;
+            
+        }
+
+        .container .custom-card {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            width: 350px;
+            max-width: 100%;
+            height: 300px;
+            background: #FFF;
+            border-radius: 20px;
+            transition: 0.5s;
+            box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+        }
+
+        .container .custom-card:hover {
+            height: 400px;
+        }
+
+        .container .custom-card .img-box {
+            position: absolute;
+            top: 20px;
+            width: 300px;
+            height: 220px;
+            background: #333;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: 0.5s;
+        }
+
+        .container .custom-card:hover .img-box {
+            top: -100px;
+            scale: 0.75;
+            box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+        }
+
+        .container .custom-card .img-box img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .container .custom-card .custom-content {
+            position: absolute;
+            top: 252px;
+            width: 100%;
+            height: 35px;
+            padding: 0 30px;
+            text-align: center;
+            overflow: hidden;
+            transition: 0.5s;
+        }
+
+        .container .custom-card:hover .custom-content {
+            top: 130px;
+            height: 250px;
+        }
+
+        .container .custom-card .custom-content h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+
+        .container .custom-card .custom-content p {
+            color: #333;
+        }
+
+        .container .custom-card .custom-content a {
+            position: relative;
+            top: 15px;
+            display: inline-block;
+            padding: 12px 25px;
+            text-decoration: none;
+            background: #181818;
+            color: #fff;
+            font-weight: 500;
+        }
+
+        .container .custom-card .custom-content a:hover {
+            opacity: 0.8;
+        }
+
+        @media (max-width: 480px) {
+            .container .custom-card {
+                width: 230px;
+                border-radius: 15px;
+            }
+
+            .container .custom-card .img-box {
+                width: 185px;
+                border-radius: 10px;
+            }
+
+            .container .custom-card .custom-content p {
+                font-size: 0.8rem;
+            }
+
+            .container .custom-card .custom-content a {
+                font-size: 0.9rem;
+            } }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+       * {
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+             font-family: "montserrat";
+           
+         }
+ 
+         .contner {
+             position: relative;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             flex-wrap: wrap;
+             gap: 100px 50px;
+             padding: 100px 50px;
+    
+             
+         }
+ 
+         .contner .custom-card {
+             position: relative;
+             display: flex;
+             justify-content: center;
+             align-items: flex-start;
+             width: 350px;
+             max-width: 100%;
+             height: 300px;
+             background: #FFF;
+             border-radius: 20px;
+             transition: 0.5s;
+             box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+         }
+ 
+         .contner .custom-card:hover {
+             height: 400px;
+         }
+ 
+         .contner .custom-card .img-box {
+             position: absolute;
+             top: 20px;
+             width: 300px;
+             height: 220px;
+             background: #333;
+             border-radius: 12px;
+             overflow: hidden;
+             transition: 0.5s;
+         }
+ 
+         .contner .custom-card:hover .img-box {
+             top: -100px;
+             scale: 0.75;
+             box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+         }
+ 
+         .contner .custom-card .img-box img {
+             position: absolute;
+             top: 0;
+             left: 0;
+             width: 100%;
+             height: 100%;
+             object-fit: cover;
+         }
+ 
+         .contner .custom-card .custom-content {
+             position: absolute;
+             top: 252px;
+             width: 100%;
+             height: 35px;
+             padding: 0 30px;
+             text-align: center;
+             overflow: hidden;
+             transition: 0.5s;
+         }
+ 
+         .contner .custom-card:hover .custom-content {
+             top: 130px;
+             height: 250px;
+         }
+ 
+         .contner .custom-card .custom-content h2 {
+             font-size: 1.5rem;
+             font-weight: 700;
+             color: #333333;
+             margin-bottom: 20px;
+         }
+ 
+         .contner .custom-card .custom-content p {
+             color: #333;
+         }
+ 
+         .contner .custom-card .custom-content a {
+             position: relative;
+             top: 15px;
+             display: inline-block;
+             padding: 12px 25px;
+             text-decoration: none;
+             background: #181818;
+             color: #fff;
+             font-weight: 500;
+         }
+ 
+         .contner .custom-card .custom-content a:hover {
+             opacity: 0.8;
+         }
+ 
+         @media (max-width: 480px) {
+             .contner .custom-card {
+                 width: 230px;
+                 border-radius: 15px;
+             }
+ 
+             .contner .custom-card .img-box {
+                 width: 185px;
+                 border-radius: 10px;
+             }
+ 
+             .contner .custom-card .custom-content p {
+                 font-size: 0.8rem;
+             }
+ 
+             .contner .custom-card .custom-content a {
+                 font-size: 0.9rem;
+             } }
+ 
+ 
+ 
+ 
+ 

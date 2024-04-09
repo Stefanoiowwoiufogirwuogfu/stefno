@@ -1,0 +1,119 @@
+{
+  "sections": [
+    {
+      "class": "cnt-1",
+      "children": [
+        { "p": { "id": "indigenous", "text": "Indigenous  Animals in Sri Lanka" } },
+        { "p": { "id": "intro", "text": "Sri Lanka's indigenous animals, from the majestic Sri Lankan Elephant to the elusive Leopard and vibrant Purple-faced Langur, epitomize the island's biodiversity. Conservation efforts are crucial to ensure their survival and ecological harmony." } }
+      ]
+    },
+    {
+      "class": "cnt-2",
+      "div": {
+        "class": "content-container",
+        "children": [
+          { "h4": { "class": "subtext-1", "text": "The Sloth Bear" } },
+          {
+            "div": {
+              "class": "image-text-container",
+              "children": [
+                { "img": { "id": "imagesloth", "src": "images/49169961188_acc9afe832_z.jpg", "width": "300px" } }
+              ]
+            }
+          },
+          { "p": { "class": "slothbear", "text": "The sloth bear (Melursus ursinus) is a myrmecophagous bear species native to the Indian subcontinent. It feeds on fruits, ants and termites. It is listed as Vulnerable on the IUCN Red List, mainly because of habitat loss and degradation. It has also been called “labiated bear” because of its long lower lip and palate used for sucking insects. It has a long, shaggy fur, a mane around the face, and long, sickle-shaped claws. It is lankier than brown and Asian black bears. It shares features of insectivorous mammals and evolved during the Pleistocene from the ancestral brown bear through convergent evolution. Sloth bears breed during spring and early summer and give birth near the beginning of winter. When their territories is encroached upon by humans, they sometimes attack them. Historically, humans have drastically reduced their habitat and diminished their population by hunting them for food and products such as their bacula and claws. Sloth bears have been tamed and used as performing pets." } }
+        ]
+      }
+    },
+    {
+      "class": "cnt-3",
+      "div": {
+        "class": "content-container",
+        "children": [
+          { "h4": { "class": "subtext-1", "text": "The Asian Elephant" } },
+          {
+            "div": {
+              "class": "image-text-container",
+              "children": [
+                { "img": { "id": "imageelephant", "src": "images/Sri_Lankan_Elephant_Male.webp", "width": "300px" } }
+              ]
+            }
+          },
+          { "p": { "class": "elephant", "text": "The Asian elephant (Elephas maximus), also called Asiatic elephant, is the only living species of the genus Elephas and is distributed throughout the Indian subcontinent and Southeast Asia, from India in the west, Nepal in the north, Sumatra in the south, and to Borneo in the east. Three subspecies are recognised E. m. maximus from Sri Lanka, E. m. indicus from mainland Asia and E. m. sumatranus from the island of Sumatra. The Asian elephant is the largest living land animal in Asia. Since 1986, the Asian elephant has been listed as Endangered on the IUCN Red List, as the population has declined by at least 50 percent over the last three generations, estimated to be 60–75 years. It is primarily threatened by loss of habitat, habitat degradation, fragmentation and poaching." } }
+        ]
+      }
+    },
+    {
+      "class": "cnt-4",
+      "div": {
+        "class": "content-container",
+        "children": [
+          { "h4": { "class": "subtext-1", "text": "The Black-Necked Stock" } },
+          {
+            "div": {
+              "class": "image-text-container",
+              "children": [
+                { "img": { "id": "imagestock", "src": "images/1800.jpeg", "width": "300px" } }
+              ]
+            }
+          },
+          { "p": { "class": "elephant", "text": "The black-necked stork is a tall long-necked wading bird in the stork family. It is a resident species across the Indian Subcontinent and Southeast Asia with a disjunct population in Australia. It lives in wetland habitats and certain crops such as rice and wheat where it forages for a wide range of animal prey. Adult birds of both sexes have a heavy bill and are patterned in white and glossy blacks, but the sexes differ in the colour of the iris. In Australia, it is sometimes called a jabiru although that name refers to a stork species found in the Americas. It is one of the few storks that is strongly territorial when feeding." } }
+        ]
+      }
+    },
+    {
+      "class": "cnt-5",
+      "div": {
+        "class": "content-container",
+        "children": [
+          { "h4": { "class": "subtext-1", "text": "The Purple-Faced-Langur" } },
+          {
+            "div": {
+              "class": "image-text-container",
+              "children": [
+                { "img": { "id": "imagelangur", "src": "images/R.jpeg", "width": "300px" } }
+              ]
+            }
+          },
+          { "p": { "class": "elephant", "text": "The purple-faced langur (Semnopithecus vetulus) also known as the purple-faced leaf monkey, is a species of Old World monkey that is endemic to Sri Lanka. The animal is a long-tailed arboreal species, identified by a mostly brown appearance, dark face (with paler lower face) and a very shy nature. The species was once highly prevalent, found in suburban Colombo and the “wet zone” villages areas with high temperatures and high humidity throughout the year, whilst rain deluges occur during the monsoon seasons but rapid urbanization has led to a significant decrease in the population level of the monkeys. Known as kalu Wadura in Sinhala. It had traditionally been classified within the lutung genus Trachypithecus but was moved to the genus Semnopithecus based on DNA evidence indicating that is it more closely related to the gray langurs." } }
+        ]
+      }
+    },
+    {
+      "class": "cnt-6",
+      "div": {
+        "class": "content-container",
+        "children": [
+          { "h4": { "class": "subtext-1", "text": "Red slender loris" } },
+          {
+            "div": {
+              "class": "image-text-container",
+              "children": [
+                { "img": { "id": "imageloris", "src": "images/images.jpeg", "width": "300px" } }
+              ]
+            }
+          },
+          { "p": { "class": "elephant", "text": "The red slender loris (Loris tardigradus ) is a small, nocturnal strepsirrhine primate native to the rainforests of Sri Lanka. This is No. 6 of the 10 focal species and No. 22 of the 100 EDGE mammal species worldwide considered the most evolutionarily distinct and globally endangered. Two subspecies have been identified, L. t. tardigradus and L. t. nycticeboides." } }
+        ]
+      }
+    },
+    {
+      "class": "cnt-7",
+      "div": {
+        "class": "content-container",
+        "children": [
+          { "h4": { "class": "subtext-1", "text": "Blue Whale" } },
+          {
+            "div": {
+              "class": "image-text-container",
+              "children": [
+                { "img": { "id": "imagewhale", "src": "images/istockphoto-637250780-170667a.jpg", "width": "300px" } }
+              ]
+            }
+          },
+          { "p": { "class": "elephant", "text": "The blue whale (Balaenoptera musculus) is a marine mammal belonging to the baleen whale parvorder, Mysticeti. At up to 29.9 metres (98 ft) in length and with a maximum recorded weight of 173 tonnes (190 short tons), it is the largest animal known to have ever existed. Long and slender, the blue whale’s body can be various shades of bluish-grey dorsally and somewhat lighter underneath. There are at least three distinct subspecies: B. m. musculus of the North Atlantic and North Pacific, B. m. intermedia of the Southern Ocean and B. m. brevicauda (also known as the pygmy blue whale) found in the Indian Ocean and South Pacific Ocean. B. m. indica, found in the Indian Ocean, may be another subspecies. As with other baleen whales, its diet consists almost exclusively of small crustaceans known as krill." } }
+        ]
+      }
+    }
+  ]
+}

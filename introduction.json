@@ -1,0 +1,181 @@
+{
+  "html": {
+    "lang": "en",
+    "head": {
+      "meta": [
+        { "charset": "UTF-8" },
+        { "name": "viewport", "content": "width=device-width, initial-scale=1.0" }
+      ],
+      "link": [
+        { "rel": "stylesheet", "href": "css/introduction.css" }
+      ],
+      "script": [
+        { "src": "introduction.js", "defer": true }
+      ],
+      "title": "Wildlife in Sri Lanka"
+    },
+    "body": {
+      "style": "background-image: url(images/pexels-shaani-sewwandi-2937148.jpg);",
+      "header": {
+        "div": {
+          "class": "container",
+          "children": [
+            { "img": { "id": "logo", "src": "images/elephant (2).png", "alt": "logo", "width": "100px", "height": "100px" } },
+            {
+              "div": {
+                "class": "text-container",
+                "children": [
+                  { "h1": "Sri Lanka's Wild Kingdom" },
+                  { "h3": "An Introductory Expedition into Sri Lankan Wildlife" }
+                ]
+              }
+            }
+          ]
+        },
+        "div": {
+          "class": "nav-bar",
+          "ul": {
+            "children": [
+              { "li": { "a": { "href": "index.html", "text": "Home" } } },
+              { "li": { "a": { "href": "animals in sl.html", "text": "Animals in Sri lanka" } } },
+              { "li": { "a": { "href": "introduction.html", "text": "Wildlife introduction" } } },
+              { "li": { "a": { "href": "conservation.html", "text": "Conservation" } } },
+              { "li": { "a": { "href": "visitors guide.html", "text": "Visitors Guide" } } },
+              { "li": { "a": { "href": "About us.html", "text": "About Us" } } }
+            ]
+          }
+        }
+      },
+      "main": {
+        "section": [
+          {
+            "class": "introduction",
+            "h2": "Explore the Diverse Wildlife of Sri Lanka",
+            "p": "Welcome to the wildlife showcase highlighting various locations and species in Sri Lanka."
+          },
+          {
+            "id": "locations",
+            "article": {
+              "class": "location",
+              "h4": "Horton Plains National Park",
+              "iframe": {
+                "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15836.119575579757!2d80.7199314!3d6.809439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1642130917594!5m2!1sen!2slk",
+                "width": "550",
+                "height": "450",
+                "frameborder": "0",
+                "style": "border:0;",
+                "allowfullscreen": "",
+                "loading": "lazy"
+              },
+              "img": {
+                "src": "images/Horton-Plains-National-Park-header.jpg",
+                "alt": "map of the location 1 wild",
+                "width": "450"
+              },
+              "p": {
+                "text": "Horton Plains National Park is one of the smallest national parks in Sri Lanka. But, despite the size, it is one of the most amazing parks in Sri Lanka..."
+              }
+            }
+          },
+          {
+            "id": "wildlife-table",
+            "section": {
+              "h2": "Distinctive wildlife varieties present in these areas",
+              "table": {
+                "thead": {
+                  "tr": {
+                    "th": ["Animal Name", "Interesting Facts", "Image"]
+                  }
+                },
+                "tbody": {
+                  "tr": [
+                    { "td": "Sambar Deer", "td": "The Sambar deer, with its dark coat and impressive antlers, excels in swimming, holds cultural significance in Hindu mythology.", "td": { "img": { "src": "images/OIP.jpeg", "alt": "Sambar Deer", "width": "200" } } },
+                    { "td": "Wild Boar", "td": "The wild boar, Sus scrofa cristatus, in Sri Lanka, is known for its adaptability, intelligence, and distinctive appearance with tusks.", "td": { "img": { "src": "images/1537427375_6394220_hirunews_Wild-boar.jpg", "alt": "Wild Boar", "width": "200" } } },
+                    { "td": "Sri Lanka Super fowl", "td": "Sri Lanka's Junglefowl is the national bird, a colorful species endemic to the island, symbolizing cultural significance and vibrant biodiversity.", "td": { "img": { "src": "images/Sri Lanka Super fowl.jpeg", "alt": "Sri Lanka Super fowl", "width": "200" } } },
+                    { "td": "Red Slender Loris", "td": "The Red Slender Loris, found in Sri Lanka, is a nocturnal primate with large eyes, slow movement, and a unique conservation status.", "td": { "img": { "src": "images/images.jpeg", "alt": "Red Slender Loris", "width": "200" } } }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "class": "location",
+            "article": {
+              "h4": "Sinharaja forest reserve",
+              "img": [
+                { "id": "forest", "src": "images/pexels-mohan-reddy-6011465.jpg", "alt": "map of the location2", "height": "350" },
+                { "id": "forest-map", "src": "images/Screenshot 2024-01-14 104655.png", "alt": "map of the location2", "height": "450" }
+              ],
+              "p": {
+                "text": "SINHARAJA RAIN FOREST is a world heritage and bio diversity hotspot which is also a major eco tourism destination in Sri Lanka..."
+              }
+            }
+          },
+          {
+            "id": "wildlife-table",
+            "section": {
+              "h2": "Distinctive wildlife varieties present in these areas",
+              "table": {
+                "thead": {
+                  "tr": {
+                    "th": ["Animal Name", "Interesting Facts", "Image"]
+                  }
+                },
+                "tbody": {
+                  "tr": [
+                    { "td": "Mountain Hawk Eagle", "td": "The Mountain Hawk-Eagle in Sri Lanka commands the highlands with its regal presence, showcasing exquisite plumage and predatory prowess against the stunning backdrop of lush greenery.", "td": { "img": { "src": "images/Crested-Hawk-Eagle-2060.jpg", "alt": "Mountain Hawk Eagle", "height": "10" } } },
+                    { "td": "Black Eagle", "td": "The black eagle soars majestically in Sri Lanka's skies, symbolizing strength and freedom, a breathtaking sight in nature's tapestry.", "td": { "img": { "src": "images/R (3).jpeg", "alt": "Black Eagle", "width": "100" } } },
+                    { "td": "Crested Serpent Eagle", "td": "In Sri Lanka, the Crested Serpent Eagle mesmerizes with its fierce gaze and distinctive crest, embodying nature's artistry and predatory prowess amid the island's diverse ecosystems.", "td": { "img": { "src": "images/R (2).jpeg", "alt": "Crested-Hawk-Eagle", "width": "100" } } },
+                    { "td": "Rufous-bellied Eagle", "td": "The Rufous-bellied Eagle in Sri Lanka graces the skies with its striking plumage and formidable presence, a testament to the island's rich avian diversity and natural splendor.", "td": { "img": { "src": "images/53e48bae9598c4d428553dde1cde6b1b.jpg", "alt": "Red Slender Loris", "width": "100" } } },
+                    { "td": "Sri Lanka Super fowl", "td": "Sri Lanka's Junglefowl is the national bird, a colorful species endemic to the island, symbolizing cultural significance and vibrant biodiversity.", "td": { "img": { "src": "images/OIP (1).jpeg", "alt": "Sri Lanka Super fowl", "width": "100" } } },
+                    { "td": "Purple-faced Langur", "td": "The Purple-faced Langur in Sri Lanka captivates with its vibrant fur and expressive eyes, symbolizing the island's rich biodiversity and the need for conservation efforts to preserve its habitats.", "td": { "img": { "src": "images/R.jpeg", "alt": "Purple-faced Langur Monkey", "width": "100" } } },
+                    { "td": "Gaint Squirrel", "td": "The Giant Squirrel in Sri Lanka, with its lush fur and bushy tail, adds charm to the island's forests, reflecting the nation's commitment to preserving its unique wildlife.", "td": { "img": { "src": "images/giant squrrel.JPG", "alt": "Gaint Squirrel", "width": "100" } } },
+                    { "td": { "a": { "href": "leapord.html", "text": "Sri Lankan Leapord" } }, "td": "The Sri Lankan Leopard, a majestic big cat, roams the island's wilderness, embodying the untamed beauty of its habitats and highlighting the importance of conservation efforts for this endangered species.", "td": { "img": { "src": "images/R (1).jpeg", "alt": "Leapord", "width": "100" } } }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "class": "location",
+            "article": {
+              "h4": "Minneriya National Park",
+              "img": [
+                { "src": "images/Screenshot 2024-01-13 210736.png", "height": "450" },
+                { "src": "images/Screenshot 2024-01-13 205636.png", "alt": "map of the location2", "height": "350" }
+              ],
+              "p": {
+                "text": "Spanning a landmass of 8,000 hectares, and a major contributor to the area’s biodiversity due to the presence of the Minneriya Tank, the Minneriya National Park is a treasure trove of endemic flora and fauna..."
+              }
+            }
+          },
+          {
+            "id": "wildlife-table",
+            "section": {
+              "h2": "Distinctive wildlife varieties present in these areas",
+              "table": {
+                "thead": {
+                  "tr": {
+                    "th": ["Animal Name", "Interesting Facts", "Image"]
+                  }
+                },
+                "tbody": {
+                  "tr": [
+                    { "td": "Srilankan Elephant", "td": "The Sri Lankan Elephant, an iconic species, roams freely in the island's landscapes, symbolizing resilience and the urgent need for conservation to protect these majestic creatures and their habitats.", "td": { "img": { "src": "images/Sri_Lankan_Elephant_Male.webp", "alt": "elephant", "width": "100" } } },
+                    { "td": "Axis Deer", "td": "The Axis Deer in Sri Lanka graces its landscapes, enhancing the natural beauty with elegance. A symbol of biodiversity, their presence highlights the delicate balance of ecosystems needing preservation.", "td": { "img": { "src": "images/sri-lankan-axis-deer-spotted-sees-us-watching-yala-national-park-lanka-67310797.webp", "alt": "axis deer", "width": "100" } } },
+                    { "td": "sloth bear", "td": "Sri Lanka's Sloth Bear, a charismatic presence in its forests, represents the island's rich wildlife. Conservation is vital to ensure the survival of this unique species and its habitat.", "td": { "img": { "src": "images/sloth-bear-1136129_1280.jpg", "alt": "sloth bear", "width": "100" } } },
+                    { "td": { "a": { "href": "leapord.html", "text": "Sri Lankan Leapord" } }, "td": "The Sri Lankan Leopard, a majestic big cat, roams the island's wilderness, embodying the untamed beauty of its habitats and highlighting the importance of conservation efforts for this endangered species.", "td": { "img": { "src": "images/R (1).jpeg", "alt": "Leapord", "width": "100" } } },
+                    { "td": "Sri Lanka Super fowl", "td": "The Sri Lankan Junglefowl, a colorful and vibrant bird native to the island, symbolizes the nation's biodiversity and holds cultural significance as the country's national bird.", "td": { "img": { "src": "images/Sri Lanka Super fowl.jpeg", "alt": "Sri Lanka Super fowl", "width": "100" } } },
+                    { "td": "Gray Slender Loris", "td": "Asian elephants roam freely in the wild", "td": { "img": { "src": "images/R (5).jpeg", "alt": "Gray Slender Loris", "width": "100" } } },
+                    { "td": "Toque Macaque", "td": "The Toque Macaque, endemic to Sri Lanka, captivates with its distinctive fur and social behaviors. Conservation efforts are crucial to safeguarding this charismatic primate and its natural habitat.", "td": { "img": { "src": "images/R (4).jpeg", "alt": "toque Macaque", "width": "100" } } },
+                    { "td": "Sri lanka Grey Hornbill", "td": "The Sri Lanka Grey Hornbill, with its unique appearance and distinctive call, adds charm to the island's forests, highlighting the importance of preserving its habitats and biodiversity.", "td": { "img": { "src": "images/Sri-Lanka-Grey-Hornbill-400x870.jpg", "alt": "Sri-Lanka-Grey-Hornbill", "width": "100" } } }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

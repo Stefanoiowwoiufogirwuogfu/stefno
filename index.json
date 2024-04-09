@@ -1,0 +1,47 @@
+{
+  "sections": [
+    {
+      "class": "cnt-1",
+      "children": [
+        { "p": { "id": "Welcome", "text": " WELCOME " } },
+        { "p": { "id": "intro", "text": "Sri Lanka's wildlife thrives in diverse habitats-Elephants roam freely, leopards hide, and colorful birds fill the skies. It's a special place with unique animals in lush forests and protected areas." } }
+      ]
+    },
+    {
+      "class": "cnt-2",
+      "div": {
+        "class": "content-container",
+        "children": [
+          { "h4": { "class": "subtext-1", "x-text": "section2Title", "text": "A Journey through Diversity" } },
+          {
+            "div": {
+              "class": "image-text-container",
+              "children": [
+                { "img": { "src": "images/pexels-pixabay-46519.jpg", "width": "490px", "height": "350px", "id": "tiger" } },
+                { "p": { "class": "gin", "x-text": "section2Content", "text": "Explore Sri Lanka's wildlife tapestry on a mesmerizing journey. Traverse lush jungles resonating with the trumpeting of elephants, witness elusive leopards prowling through the wilderness, and marvel at the vibrant array of exotic birds. Embrace the diverse wonders of Sri Lanka's ecosystems, where nature's beauty unfolds in every step of your adventure." } }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "cnt-3",
+      "div": {
+        "class": "",
+        "children": [
+          { "h4": { "class": "subtext-2", "x-text": "section3Title", "text": "Endangered Species" } },
+          {
+            "div": {
+              "class": "image-text-container1",
+              "children": [
+                { "img": { "src": "images/1_rTsTL0lK5KAN8Nlnhty6Xg.jpg", "width": "550px", "id": "chimps" } }
+              ]
+            }
+          },
+          { "p": { "class": "gin1", "x-text": "section3Content", "text": "In Sri Lanka, the struggle for survival persists among endangered species. The majestic Sri Lankan leopard faces threats, while the critically endangered Western Purple-faced Langur grapples with habitat loss. Conservation efforts strive to safeguard these unique species, ensuring a sustainable future for the island's diverse and vulnerable wildlife." } }
+        ]
+      }
+    }
+  ]
+}

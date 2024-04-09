@@ -1,0 +1,58 @@
+{
+  "doctype": "html",
+  "html": {
+    "lang": "en",
+    "head": {
+      "meta": [
+        { "charset": "UTF-8" },
+        { "name": "viewport", "content": "width=device-width, initial-scale=1.0" }
+      ],
+      "link": { "rel": "stylesheet", "href": "css/conservation.css" },
+      "script": { "src": "javascript/conservation.js", "defer": true },
+      "title": "Wildlife Conservation"
+    },
+    "body": {
+      "style": "background-image: url(images/R\\ \\(9\\).jpeg)",
+      "header": {
+        "div": {
+          "class": "container",
+          "img": { "id": "logo", "src": "images/elephant (2).png", "alt": "logo", "width": "100px", "height": "100px" },
+          "div": {
+            "class": "text-container",
+            "h1": "Sri Lanka's Wild Kingdom",
+            "h3": "An Introductory Expedition into Sri Lankan Wildlife"
+          }
+        }
+      },
+      "h4": { "class": "hdn-1", "text": "<center>DEPARTMENT OF WILDLIFE CONSERVATION</center>" },
+      "section": {
+        "class": "cnt-2",
+        "h2": "Introduction",
+        "div": [
+          { "class": "txt-cnt-2", "p": "The Department of Wildlife Conservation bears the vital responsibility of safeguarding the ecosystem that encompasses diverse plant and animal species, bestowing upon the country a rich biodiversity. Established in 1949, the primary mandate of this department is the preservation of wildlife resources in Sri Lanka. A significant aspect of this conservation effort involves protecting the sources of water that nourish the main rivers in the country and the catchment areas of 40 major reservoirs, serving the dual purpose of providing water for agriculture and generating hydroelectric power. Remarkably, this wildlife reservation network spans over 13% of the entire land area of the island. The Department of Wildlife Conservation is the sole entity entrusted with the management of this expansive wildlife reservation network. Comprising reservations declared under various levels, this network plays a crucial role in maintaining the ecological balance of Sri Lanka. The preservation of these areas contributes not only to the protection of numerous species but also to the sustainability of water resources vital for agriculture and energy production. Since its establishment, the Department has been dedicated to upholding the integrity of these natural habitats, ensuring the coexistence of various species and the sustainability of essential resources. Through its unwavering commitment, the Department of Wildlife Conservation has become a key player in the broader effort to balance environmental preservation with human development in Sri Lanka." },
+          { "class": "map-img", "img": { "src": "images/dptWildLifeMapwebste2022-768x1086.jpg", "alt": "map of the department", "height": "500px" } }
+        ]
+      },
+      "div": {
+        "class": "flex-cnt",
+        "div": [
+          { "img": { "src": "images/R (6).jpeg", "width": "450" } },
+          { "img": { "src": "images/Muthurajawela-Wetlands-gallery-pop-up-(1)-min.jpg", "width": "450" } },
+          { "img": { "src": "images/R (9).jpeg", "width": "450" } },
+          { "img": { "src": "images/76da619a1957557e5f9a7c210d50656e.jpg", "width": "450" } },
+          { "img": { "src": "images/BOLGODA_20200113151531.jpg", "width": "450" } },
+          { "img": { "src": "images/Horton-Plains-National-Park-header.jpg", "width": "450" } },
+          { "img": { "src": "images/IMG_3317.jpg", "width": "450" } },
+          { "img": { "src": "images/image.jpg", "width": "450" } },
+          { "img": { "src": "images/hanthana-cover.jpg", "width": "450" } },
+          { "img": { "src": "images/R (8).jpeg", "width": "450" } },
+          { "img": { "src": "images/R (7).jpeg", "width": "450" } },
+          { "img": { "src": "images/img1.jpg", "width": "450" } },
+          { "img": { "src": "images/central.jpg", "width": "450" } },
+          { "img": { "src": "images/pexels-photo-929548.jpeg", "width": "450" } },
+          { "img": { "src": "images/site_1203_0001-750-750-20151105161057.jpg", "width": "450" } }
+        ]
+      }
+    }
+  }
+}

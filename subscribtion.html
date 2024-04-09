@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/subscription.css">
+    <title>Registered Emails</title>
+</head>
+<body>
+    <h1>Registered Email Addresses</h1>
+    <ul id="registeredEmails"></ul>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    // Function to display registered emails
+    function displayRegisteredEmails() {
+        const registeredEmailsElement = document.getElementById("registeredEmails");
+        registeredEmailsElement.innerHTML = ""; // Clear previous entries
+
+        // Retrieve emails from local storage
+        const emails = JSON.parse(localStorage.getItem("newsletterEmails")) || [];
+
+        // Display each email in the list
+        emails.forEach(function(email) {
+            const li = document.createElement("li");
+            li.textContent = email;
+            registeredEmailsElement.appendChild(li);
+        });
+    }
+
+    // Call the function initially to display any existing registered emails
+    displayRegisteredEmails();
+});
+
+
+    </script>
+</body>
+</html>
